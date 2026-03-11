@@ -119,11 +119,13 @@ button:hover{
 }
 footer
 {
-    display: block;
+   display: block;
     text-align: center;
     padding: 10px;
     color: white;
-    padding: 10px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
   
     
 }
@@ -169,4 +171,5 @@ footer
         display: flex;
         flex-direction: column;
         justify-self: center;
+
     }
